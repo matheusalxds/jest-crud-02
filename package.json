@@ -1,0 +1,22 @@
+{
+  "name": "udemy-jest-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "mongoose": "^5.8.3",
+    "node-mocks-http": "^1.8.1"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
